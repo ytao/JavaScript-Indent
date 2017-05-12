@@ -19,7 +19,7 @@ else
 	ru! indent/javascript.vim
 endif
 
-echo "Sourcing html indent"
+" echo "Sourcing html indent"
 
 
 " [-- local settings (must come before aborting the script) --]
@@ -105,6 +105,16 @@ call <SID>HtmlIndentPush('u')
 call <SID>HtmlIndentPush('ul')
 call <SID>HtmlIndentPush('var')
 
+" 为iviewui修改
+call <SID>HtmlIndentPush('i-switch')
+call <SID>HtmlIndentPush('i-button')
+call <SID>HtmlIndentPush('i-input')
+call <SID>HtmlIndentPush('i-col')
+call <SID>HtmlIndentPush('Row')
+call <SID>HtmlIndentPush('i-table')
+call <SID>HtmlIndentPush('span')
+call <SID>HtmlIndentPush('Span')
+""""""""""""""""""""""""""""""
 
 " [-- <ELEMENT ? O O ...> --]
 if !exists('g:html_indent_strict')
