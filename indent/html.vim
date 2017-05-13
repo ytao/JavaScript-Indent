@@ -114,6 +114,7 @@ call <SID>HtmlIndentPush('Row')
 call <SID>HtmlIndentPush('i-table')
 call <SID>HtmlIndentPush('span')
 call <SID>HtmlIndentPush('Span')
+call <SID>HtmlIndentPush('Card')
 """"""""""""""""""""""""""""""
 
 " [-- <ELEMENT ? O O ...> --]
