@@ -118,6 +118,7 @@ call <SID>HtmlIndentPush('span')
 call <SID>HtmlIndentPush('Span')
 call <SID>HtmlIndentPush('Tabs')
 call <SID>HtmlIndentPush('Tab-pane')
+call <SID>HtmlIndentPush('Card')
 """"""""""""""""""""""""""""""
 
 " [-- <ELEMENT ? O O ...> --]
