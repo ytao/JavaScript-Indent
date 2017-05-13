@@ -13,9 +13,9 @@
 "endif
 "let b:did_indent = 1
 
-if exists("g:js_indent") 
+if exists("g:js_indent")
 	so g:js_indent
-else 
+else
 	ru! indent/javascript.vim
 endif
 
@@ -108,12 +108,16 @@ call <SID>HtmlIndentPush('var')
 " 为iviewui修改
 call <SID>HtmlIndentPush('i-switch')
 call <SID>HtmlIndentPush('i-button')
+call <SID>HtmlIndentPush('Button')
 call <SID>HtmlIndentPush('i-input')
+call <SID>HtmlIndentPush('Input')
 call <SID>HtmlIndentPush('i-col')
 call <SID>HtmlIndentPush('Row')
 call <SID>HtmlIndentPush('i-table')
 call <SID>HtmlIndentPush('span')
 call <SID>HtmlIndentPush('Span')
+call <SID>HtmlIndentPush('Tabs')
+call <SID>HtmlIndentPush('Tab-pane')
 """"""""""""""""""""""""""""""
 
 " [-- <ELEMENT ? O O ...> --]
